@@ -19,7 +19,7 @@ I build scalable web applications, craft clean interfaces, and solve complex pro
 <a href="https://www.linkedin.com/in/piyush-tiwari-b8a68b294">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge"/>
 </a>
-<a href="https://github.com/BITTUDEOL">
+<a href="https://github.com/PiyushTiwari2051/PiyushTiwari2051">
 <img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge"/>
 </a>
 <a href="https://leetcode.com/PIY001/">
@@ -60,7 +60,7 @@ Token-based queue management system that reduces waiting time and crowd congesti
 <a href="https://line-smart.lovable.app">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
-<a href="https://github.com/PiyushTiwari2051/SmartQueue">
+<a href="https://github.com/PiyushTiwari2051/SIMONGAME">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
@@ -78,7 +78,7 @@ Smart platform to digitally resolve service requests.
 <a href="https://raasta-fix.netlify.app/">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
-<a href="https://github.com/PiyushTiwari2051/RaastaFix">
+<a href="https://github.com/PiyushTiwari2051/Raasta-fix-">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
