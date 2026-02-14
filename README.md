@@ -113,7 +113,7 @@ Java-based ATM simulation system.
 
 <b>Stack:</b> Java, Swing, JDBC
 
-<a href="https://github.com/BITTUDEOL/SBI-ATM">
+<a href="https://github.com/PiyushTiwari2051/SBI-BANK-MANAGEMENT-SYSTEM">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
