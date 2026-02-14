@@ -60,7 +60,7 @@ Token-based queue management system that reduces waiting time and crowd congesti
 <a href="https://line-smart.lovable.app">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
-<a href="https://github.com/BITTUDEOL/SmartQueue">
+<a href="https://github.com/PiyushTiwari2051/SmartQueue">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
@@ -78,7 +78,7 @@ Smart platform to digitally resolve service requests.
 <a href="https://raasta-fix.netlify.app/">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
-<a href="https://github.com/BITTUDEOL/RaastaFix">
+<a href="https://github.com/PiyushTiwari2051/RaastaFix">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
@@ -98,7 +98,7 @@ All-in-one digital portfolio platform.
 <a href="https://showcase-canvas-89.lovable.app">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
-<a href="https://github.com/BITTUDEOL/PortfolioMaster">
+<a href="https://github.com/PiyushTiwari2051/Portfolio-Master">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
