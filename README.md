@@ -142,7 +142,7 @@ Java-based ATM simulation system.
 **B.Tech in Computer Science (2023–2027)**  
 IMS Engineering College  
 
-**Science (PCM)**  
+**Intermediate (2021-2023)**  
 Ingraham Institute English School  
 
 ---
