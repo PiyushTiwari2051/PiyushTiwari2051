@@ -51,13 +51,13 @@ I build scalable web applications, craft clean interfaces, and solve complex pro
 
 <h3>SmartQueue</h3>
 
-<img src="https://raw.githubusercontent.com/BITTUDEOL/SmartQueue/main/preview.png" />
+
 
 Token-based queue management system that reduces waiting time and crowd congestion.
 
 <b>Stack:</b> React, TypeScript, Supabase, Tailwind
 
-<a href="https://smartqueue-demo-link.com">
+<a href="https://line-smart.lovable.app">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
 <a href="https://github.com/BITTUDEOL/SmartQueue">
@@ -70,13 +70,12 @@ Token-based queue management system that reduces waiting time and crowd congesti
 
 <h3>Raasta-Fix</h3>
 
-<img src="https://raw.githubusercontent.com/BITTUDEOL/RaastaFix/main/preview.png" />
 
 Smart platform to digitally resolve service requests.
 
 <b>Stack:</b> React, MongoDB, Tailwind
 
-<a href="https://raastafix-demo-link.com">
+<a href="https://raasta-fix.netlify.app/">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
 <a href="https://github.com/BITTUDEOL/RaastaFix">
@@ -91,13 +90,12 @@ Smart platform to digitally resolve service requests.
 
 <h3>Portfolio Master</h3>
 
-<img src="https://raw.githubusercontent.com/BITTUDEOL/PortfolioMaster/main/preview.png" />
 
 All-in-one digital portfolio platform.
 
 <b>Stack:</b> React, MongoDB, Supabase
 
-<a href="https://portfoliomaster-demo-link.com">
+<a href="https://showcase-canvas-89.lovable.app">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
 <a href="https://github.com/BITTUDEOL/PortfolioMaster">
@@ -110,7 +108,6 @@ All-in-one digital portfolio platform.
 
 <h3>SBI ATM System</h3>
 
-<img src="https://raw.githubusercontent.com/BITTUDEOL/SBI-ATM/main/preview.png" />
 
 Java-based ATM simulation system.
 
