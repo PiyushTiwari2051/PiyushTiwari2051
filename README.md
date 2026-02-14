@@ -60,7 +60,7 @@ Token-based queue management system that reduces waiting time and crowd congesti
 <a href="https://line-smart.lovable.app">
 <img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
 </a>
-<a href="https://github.com/PiyushTiwari2051/SIMONGAME">
+<a href="https://github.com/PiyushTiwari2051/SmartQueue">
 <img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
 </a>
 
