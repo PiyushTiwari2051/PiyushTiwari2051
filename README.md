@@ -1,88 +1,164 @@
-<!-- ========================= -->
-<!--    PIYUSH TIWARI PROFILE  -->
-<!-- ========================= -->
+<!-- =============================== -->
+<!--        PIYUSH TIWARI            -->
+<!-- =============================== -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:06b6d4&height=200&section=header&text=Piyush%20Tiwari&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=160&text=Piyush%20Tiwari&fontSize=48&fontColor=FFFFFF&color=0:22D3EE,50:6366F1,100:EC4899&stroke=FFFFFF&strokeWidth=2&radius=999&animation=fadeIn" />
+
+
+
+<h3 style="letter-spacing:1px;">Full Stack Developer • CSE Undergraduate • Problem Solver</h3>
+
+<p style="max-width:650px;">
+I build scalable web applications, craft clean interfaces, and solve complex problems using strong programming fundamentals.
 </p>
 
-<p align="center">
-Building scalable systems, modern UIs, and impactful digital experiences.
-</p>
+<br/>
 
----
-
-## 🧠 About Me
-
-- 💻 Full Stack Developer  
-- 🔥 Passionate about clean code & system design  
-- ⚡ Building real-world projects  
-- 🎯 Focused on growth & excellence  
-
----
-
-## 🛠 Tech Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,express,mongodb,java,python,git,github" />
-</p>
-
----
-
-## 🚀 Projects
-
-### 🔹 Portfolio Master  
-Professional portfolio builder platform  
-**Tech:** React, TypeScript, MongoDB, Tailwind, Supabase  
-🔗 https://showcase-canvas-89.lovable.app  
-🔗 https://github.com/BITTUDEOL/Portfolio-Master  
-
----
-
-### 🔹 Queue Smart  
-Token based crowd management system  
-🔗 https://line-smart.lovable.app  
-
----
-
-### 🔹 SBI ATM System  
-Java based banking simulation  
-
----
-
-### 🔹 Simon Game  
-Memory based game  
-🔗 https://simon-raja.netlify.app  
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BITTUDEOL&show_icons=true&theme=tokyonight" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BITTUDEOL&layout=compact&theme=tokyonight" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BITTUDEOL&theme=tokyonight"/>
-</p>
-
----
-
-## 🌐 Connect With Me
-
-<p align="center">
-<a href="https://github.com/BITTUDEOL">
-<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github">
+<a href="https://www.linkedin.com/in/piyush-tiwari-b8a68b294">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge"/>
 </a>
-<a href="https://linkedin.com/in/piyush-tiwari-b8a68b294">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin">
+<a href="https://github.com/BITTUDEOL">
+<img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge"/>
+</a>
+<a href="https://leetcode.com/PIY001/">
+<img src="https://img.shields.io/badge/LeetCode-Solve-F59E0B?style=for-the-badge"/>
 </a>
 <a href="mailto:piyushtiwari2051@gmail.com">
-<img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail">
+<img src="https://img.shields.io/badge/Email-Contact-E11D48?style=for-the-badge"/>
 </a>
-</p>
+
+</div>
 
 ---
 
-<h3 align="center">✨ Designed & Maintained by Piyush Tiwari ✨</h3>
+## 🧩 CORE SKILLS
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,typescript,nodejs,express,mongodb,python,java,git" />
+
+</div>
+
+---
+
+## 🚀 FEATURED PROJECTS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>SmartQueue</h3>
+
+<img src="https://raw.githubusercontent.com/BITTUDEOL/SmartQueue/main/preview.png" />
+
+Token-based queue management system that reduces waiting time and crowd congestion.
+
+<b>Stack:</b> React, TypeScript, Supabase, Tailwind
+
+<a href="https://smartqueue-demo-link.com">
+<img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
+</a>
+<a href="https://github.com/BITTUDEOL/SmartQueue">
+<img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Raasta-Fix</h3>
+
+<img src="https://raw.githubusercontent.com/BITTUDEOL/RaastaFix/main/preview.png" />
+
+Smart platform to digitally resolve service requests.
+
+<b>Stack:</b> React, MongoDB, Tailwind
+
+<a href="https://raastafix-demo-link.com">
+<img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
+</a>
+<a href="https://github.com/BITTUDEOL/RaastaFix">
+<img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>Portfolio Master</h3>
+
+<img src="https://raw.githubusercontent.com/BITTUDEOL/PortfolioMaster/main/preview.png" />
+
+All-in-one digital portfolio platform.
+
+<b>Stack:</b> React, MongoDB, Supabase
+
+<a href="https://portfoliomaster-demo-link.com">
+<img src="https://img.shields.io/badge/LIVE-DEMO-16A34A?style=for-the-badge"/>
+</a>
+<a href="https://github.com/BITTUDEOL/PortfolioMaster">
+<img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>SBI ATM System</h3>
+
+<img src="https://raw.githubusercontent.com/BITTUDEOL/SBI-ATM/main/preview.png" />
+
+Java-based ATM simulation system.
+
+<b>Stack:</b> Java, Swing, JDBC
+
+<a href="https://github.com/BITTUDEOL/SBI-ATM">
+<img src="https://img.shields.io/badge/SOURCE-CODE-0F172A?style=for-the-badge"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GITHUB ANALYTICS
+
+<div align="center">
+
+<!-- STREAK (HERO CARD) -->
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=PiyushTiwari2051&theme=tokyonight&hide_border=true" />
+
+<br/><br/>
+
+
+</div>
+
+---
+
+## 🎓 EDUCATION
+
+**B.Tech in Computer Science (2023–2027)**  
+IMS Engineering College  
+
+**Science (PCM)**  
+Ingraham Institute English School  
+
+---
+
+## 📬 CONTACT
+
+Email: **piyushtiwari2051@gmail.com**
+
+---
+
+<div align="center">
+
+⭐ Star repositories if you find them useful.
+
+</div>
+
