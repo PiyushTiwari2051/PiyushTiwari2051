@@ -22,7 +22,7 @@ I build scalable web applications, craft clean interfaces, and solve complex pro
 <a href="https://github.com/PiyushTiwari2051/PiyushTiwari2051">
 <img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge"/>
 </a>
-<a href="https://leetcode.com/PIY001/">
+<a href="">
 <img src="https://img.shields.io/badge/LeetCode-Solve-F59E0B?style=for-the-badge"/>
 </a>
 <a href="mailto:piyushtiwari2051@gmail.com">
