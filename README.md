@@ -132,20 +132,20 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="50%" valign="top" align="center">
-      <img width="100%" src="https://github-stats-extended.vercel.app/api?username=PiyushTiwari2051&show_icons=true&title_color=38BDF8&icon_color=FFA116&text_color=E2E8F0&bg_color=0B0F19&hide_border=true&count_private=true" alt="Piyush's GitHub Stats" />
+      <img width="100%" src="https://github-stats-extended.vercel.app/api?username=PiyushTiwari2051&show_icons=true&title_color=38BDF8&icon_color=FFA116&text_color=E2E8F0&bg_color=0B0F19&hide_border=true&count_private=true&v=2" alt="Piyush's GitHub Stats" />
     </td>
     <td width="50%" valign="top" align="center">
-      <img width="100%" src="https://streak-stats.demolab.com/?user=PiyushTiwari2051&theme=tokyonight&ring=38BDF8&fire=FFA116&currStreakLabel=38BDF8&background=0B0F19&hide_border=true" alt="Piyush's contribution streak" />
+      <img width="100%" src="https://streak-stats.demolab.com/?user=PiyushTiwari2051&theme=tokyonight&ring=38BDF8&fire=FFA116&currStreakLabel=38BDF8&background=0B0F19&hide_border=true&v=2" alt="Piyush's contribution streak" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
       <br>
-      <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=PiyushTiwari2051&layout=compact&title_color=38BDF8&icon_color=FFA116&text_color=E2E8F0&bg_color=0B0F19&hide_border=true" alt="Piyush's Top Languages" />
+      <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=PiyushTiwari2051&layout=compact&title_color=38BDF8&icon_color=FFA116&text_color=E2E8F0&bg_color=0B0F19&hide_border=true&v=2" alt="Piyush's Top Languages" />
     </td>
     <td width="50%" valign="top" align="center">
       <br>
-      <img width="100%" src="https://github-trophies.devomb.com/?username=PiyushTiwari2051&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=3" alt="Piyush's Trophies" />
+      <img width="100%" src="https://github-trophies.devomb.com/?username=PiyushTiwari2051&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=3&v=2" alt="Piyush's Trophies" />
     </td>
   </tr>
 </table>
