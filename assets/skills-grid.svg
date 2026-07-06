@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;family=Orbitron:wght@500;700;900&amp;display=swap');
+      
+      .cat-title {
+        font-family: 'Orbitron', 'Segoe UI', sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #38BDF8;
+        letter-spacing: 2px;
+        filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.4));
+      }
+      
+      .tech-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #E2E8F0;
+        font-weight: 500;
+      }
+      
+      /* Glowing animations */
+      @keyframes pulse-trace {
+        0%, 100% { stroke-dashoffset: 100; opacity: 0.3; }
+        50% { stroke-dashoffset: 0; opacity: 0.9; }
+      }
+      
+      @keyframes neon-flicker {
+        0%, 100% { opacity: 0.95; filter: drop-shadow(0 0 6px var(--glow-color)); }
+        50% { opacity: 0.75; filter: drop-shadow(0 0 3px var(--glow-color)); }
+      }
+      
+      .trace-line {
+        stroke: #1E293B;
+        stroke-width: 1.5;
+        fill: none;
+      }
+      
+      .active-trace {
+        stroke-width: 1.5;
+        stroke-dasharray: 20, 80;
+        fill: none;
+        animation: pulse-trace 4s infinite linear;
+      }
+      
+      .tech-capsule {
+        fill: #0B0F19;
+        stroke-width: 1;
+        rx: 5;
+        ry: 5;
+      }
+
+      .glow-item {
+        animation: neon-flicker 4s infinite ease-in-out;
+      }
+
+      .node-dot {
+        r: 3.5;
+        fill: #00E5FF;
+        filter: drop-shadow(0 0 4px #00E5FF);
+      }
+    </style>
+    
+    <linearGradient id="box-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background container panels (5 columns) -->
+  
+  <!-- Column 1: Languages -->
+  <g transform="translate(10, 20)">
+    <rect width="180" height="240" rx="10" fill="url(#box-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="180" height="240" rx="10" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="20, 140" opacity="0.4"/>
+    <text x="90" y="24" class="cat-title" text-anchor="middle">⚡ LANGUAGES</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Tech Item: TypeScript -->
+    <g transform="translate(15, 50)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#3178C6"/>
+      <circle cx="18" cy="16" r="4" fill="#3178C6" class="glow-item" style="--glow-color: #3178C6;"/>
+      <text x="35" y="20" class="tech-text">TypeScript</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#3178C6" text-anchor="middle" font-weight="bold">TS</text>
+    </g>
+
+    <!-- Tech Item: JavaScript -->
+    <g transform="translate(15, 95)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#F7DF1E"/>
+      <circle cx="18" cy="16" r="4" fill="#F7DF1E" class="glow-item" style="--glow-color: #F7DF1E;"/>
+      <text x="35" y="20" class="tech-text">JavaScript</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#F7DF1E" text-anchor="middle" font-weight="bold">JS</text>
+    </g>
+
+    <!-- Tech Item: Python -->
+    <g transform="translate(15, 140)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#3776AB"/>
+      <circle cx="18" cy="16" r="4" fill="#3776AB" class="glow-item" style="--glow-color: #3776AB;"/>
+      <text x="35" y="20" class="tech-text">Python</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#3776AB" text-anchor="middle" font-weight="bold">PY</text>
+    </g>
+
+    <!-- Tech Item: Java -->
+    <g transform="translate(15, 185)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#ED8B00"/>
+      <circle cx="18" cy="16" r="4" fill="#ED8B00" class="glow-item" style="--glow-color: #ED8B00;"/>
+      <text x="35" y="20" class="tech-text">Java</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#ED8B00" text-anchor="middle" font-weight="bold">JV</text>
+    </g>
+  </g>
+
+  <!-- Circuit Traces between Col 1 and Col 2 -->
+  <path d="M 190,76 L 205,76 L 205,100 L 210,100" class="trace-line"/>
+  <path d="M 190,76 L 205,76 L 205,100 L 210,100" class="active-trace" stroke="#38BDF8"/>
+  <path d="M 190,166 L 205,166 L 205,140 L 210,140" class="trace-line"/>
+  <circle cx="190" cy="76" class="node-dot"/>
+  <circle cx="190" cy="166" class="node-dot" fill="#EC4899" filter="drop-shadow(0 0 4px #EC4899)"/>
+
+  <!-- Column 2: Frontend -->
+  <g transform="translate(210, 20)">
+    <rect width="180" height="240" rx="10" fill="url(#box-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="180" height="240" rx="10" fill="none" stroke="#61DAFB" stroke-width="1" stroke-dasharray="20, 140" opacity="0.4"/>
+    <text x="90" y="24" class="cat-title" text-anchor="middle" fill="#61DAFB" style="filter: drop-shadow(0 0 4px rgba(97, 218, 251, 0.4));">🎨 FRONTEND</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Tech Item: React -->
+    <g transform="translate(15, 50)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#61DAFB"/>
+      <circle cx="18" cy="16" r="4" fill="#61DAFB" class="glow-item" style="--glow-color: #61DAFB;"/>
+      <text x="35" y="20" class="tech-text">React.js</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#61DAFB" text-anchor="middle" font-weight="bold">RE</text>
+    </g>
+
+    <!-- Tech Item: Next.js -->
+    <g transform="translate(15, 95)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#FFFFFF" stroke-opacity="0.7"/>
+      <circle cx="18" cy="16" r="4" fill="#FFFFFF" class="glow-item" style="--glow-color: #FFFFFF;"/>
+      <text x="35" y="20" class="tech-text">Next.js</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">NX</text>
+    </g>
+
+    <!-- Tech Item: Tailwind CSS -->
+    <g transform="translate(15, 140)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#38BDF8"/>
+      <circle cx="18" cy="16" r="4" fill="#38BDF8" class="glow-item" style="--glow-color: #38BDF8;"/>
+      <text x="35" y="20" class="tech-text">Tailwind CSS</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#38BDF8" text-anchor="middle" font-weight="bold">TW</text>
+    </g>
+
+    <!-- Tech Item: HTML5 & CSS3 -->
+    <g transform="translate(15, 185)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#E34F26"/>
+      <circle cx="18" cy="16" r="4" fill="#E34F26" class="glow-item" style="--glow-color: #E34F26;"/>
+      <text x="35" y="20" class="tech-text">HTML / CSS</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#E34F26" text-anchor="middle" font-weight="bold">H5</text>
+    </g>
+  </g>
+
+  <!-- Circuit Traces between Col 2 and Col 3 -->
+  <path d="M 390,120 L 410,120" class="trace-line"/>
+  <path d="M 390,120 L 410,120" class="active-trace" stroke="#10B981" style="animation-delay: 1.5s;"/>
+  <circle cx="390" cy="120" class="node-dot" fill="#10B981" filter="drop-shadow(0 0 4px #10B981)"/>
+
+  <!-- Column 3: Backend -->
+  <g transform="translate(410, 20)">
+    <rect width="180" height="240" rx="10" fill="url(#box-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="180" height="240" rx="10" fill="none" stroke="#10B981" stroke-width="1" stroke-dasharray="20, 140" opacity="0.4"/>
+    <text x="90" y="24" class="cat-title" text-anchor="middle" fill="#10B981" style="filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.4));">⚙️ BACKEND</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Tech Item: Node.js -->
+    <g transform="translate(15, 50)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#339933"/>
+      <circle cx="18" cy="16" r="4" fill="#339933" class="glow-item" style="--glow-color: #339933;"/>
+      <text x="35" y="20" class="tech-text">Node.js</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#339933" text-anchor="middle" font-weight="bold">ND</text>
+    </g>
+
+    <!-- Tech Item: Express.js -->
+    <g transform="translate(15, 95)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#828282"/>
+      <circle cx="18" cy="16" r="4" fill="#828282" class="glow-item" style="--glow-color: #828282;"/>
+      <text x="35" y="20" class="tech-text">Express.js</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#828282" text-anchor="middle" font-weight="bold">EX</text>
+    </g>
+
+    <!-- Tech Item: REST APIs -->
+    <g transform="translate(15, 140)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#00FFCC"/>
+      <circle cx="18" cy="16" r="4" fill="#00FFCC" class="glow-item" style="--glow-color: #00FFCC;"/>
+      <text x="35" y="20" class="tech-text">REST APIs</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#00FFCC" text-anchor="middle" font-weight="bold">AP</text>
+    </g>
+
+    <!-- Tech Item: Microservices -->
+    <g transform="translate(15, 185)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#896633"/>
+      <circle cx="18" cy="16" r="4" fill="#896633" opacity="0.5"/>
+      <text x="35" y="20" class="tech-text" fill="#64748B">System Design</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#896633" text-anchor="middle" font-weight="bold">SD</text>
+    </g>
+  </g>
+
+  <!-- Circuit Traces between Col 3 and Col 4 -->
+  <path d="M 590,140 L 600,140 L 605,170 L 610,170" class="trace-line"/>
+  <circle cx="590" cy="140" class="node-dot" fill="#3ECF8E" filter="drop-shadow(0 0 4px #3ECF8E)"/>
+
+  <!-- Column 4: Databases -->
+  <g transform="translate(610, 20)">
+    <rect width="180" height="240" rx="10" fill="url(#box-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="180" height="240" rx="10" fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="20, 140" opacity="0.4"/>
+    <text x="90" y="24" class="cat-title" text-anchor="middle" fill="#F59E0B" style="filter: drop-shadow(0 0 4px rgba(245, 158, 11, 0.4));">💾 DATABASES</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Tech Item: MongoDB -->
+    <g transform="translate(15, 50)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#47A248"/>
+      <circle cx="18" cy="16" r="4" fill="#47A248" class="glow-item" style="--glow-color: #47A248;"/>
+      <text x="35" y="20" class="tech-text">MongoDB</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#47A248" text-anchor="middle" font-weight="bold">MG</text>
+    </g>
+
+    <!-- Tech Item: Supabase -->
+    <g transform="translate(15, 95)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#3ECF8E"/>
+      <circle cx="18" cy="16" r="4" fill="#3ECF8E" class="glow-item" style="--glow-color: #3ECF8E;"/>
+      <text x="35" y="20" class="tech-text">Supabase</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#3ECF8E" text-anchor="middle" font-weight="bold">SB</text>
+    </g>
+
+    <!-- Tech Item: MySQL -->
+    <g transform="translate(15, 140)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#4479A1"/>
+      <circle cx="18" cy="16" r="4" fill="#4479A1" class="glow-item" style="--glow-color: #4479A1;"/>
+      <text x="35" y="20" class="tech-text">MySQL</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#4479A1" text-anchor="middle" font-weight="bold">MY</text>
+    </g>
+
+    <!-- Tech Item: PostgreSQL -->
+    <g transform="translate(15, 185)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#336791"/>
+      <circle cx="18" cy="16" r="4" fill="#336791" class="glow-item" style="--glow-color: #336791;"/>
+      <text x="35" y="20" class="tech-text">PostgreSQL</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#336791" text-anchor="middle" font-weight="bold">PG</text>
+    </g>
+  </g>
+
+  <!-- Circuit Traces between Col 4 and Col 5 -->
+  <path d="M 790,110 L 800,110 L 805,80 L 810,80" class="trace-line"/>
+  <path d="M 790,110 L 800,110 L 805,80 L 810,80" class="active-trace" stroke="#EC4899" style="animation-delay: 2.5s;"/>
+  <circle cx="790" cy="110" class="node-dot" fill="#EC4899" filter="drop-shadow(0 0 4px #EC4899)"/>
+
+  <!-- Column 5: DevOps & Tools -->
+  <g transform="translate(810, 20)">
+    <rect width="180" height="240" rx="10" fill="url(#box-grad)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="180" height="240" rx="10" fill="none" stroke="#EC4899" stroke-width="1" stroke-dasharray="20, 140" opacity="0.4"/>
+    <text x="90" y="24" class="cat-title" text-anchor="middle" fill="#EC4899" style="filter: drop-shadow(0 0 4px rgba(236, 72, 153, 0.4));">🛠️ TOOLS / DEVOPS</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Tech Item: Git/GitHub -->
+    <g transform="translate(15, 50)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#F05032"/>
+      <circle cx="18" cy="16" r="4" fill="#F05032" class="glow-item" style="--glow-color: #F05032;"/>
+      <text x="35" y="20" class="tech-text">Git &amp; GitHub</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#F05032" text-anchor="middle" font-weight="bold">GT</text>
+    </g>
+
+    <!-- Tech Item: Docker -->
+    <g transform="translate(15, 95)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#2496ED"/>
+      <circle cx="18" cy="16" r="4" fill="#2496ED" class="glow-item" style="--glow-color: #2496ED;"/>
+      <text x="35" y="20" class="tech-text">Docker</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#2496ED" text-anchor="middle" font-weight="bold">DK</text>
+    </g>
+
+    <!-- Tech Item: Vercel/Netlify -->
+    <g transform="translate(15, 140)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#00E5FF"/>
+      <circle cx="18" cy="16" r="4" fill="#00E5FF" class="glow-item" style="--glow-color: #00E5FF;"/>
+      <text x="35" y="20" class="tech-text">Vercel &amp; Netlify</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#00E5FF" text-anchor="middle" font-weight="bold">DP</text>
+    </g>
+
+    <!-- Tech Item: VS Code / Figma -->
+    <g transform="translate(15, 185)">
+      <rect width="150" height="32" class="tech-capsule" stroke="#A259FF"/>
+      <circle cx="18" cy="16" r="4" fill="#A259FF" class="glow-item" style="--glow-color: #A259FF;"/>
+      <text x="35" y="20" class="tech-text">VSCode &amp; Figma</text>
+      <rect x="110" y="8" width="30" height="16" rx="3" fill="#1E293B"/>
+      <text x="125" y="20" font-family="monospace" font-size="9" fill="#A259FF" text-anchor="middle" font-weight="bold">TL</text>
+    </g>
+  </g>
+</svg>
