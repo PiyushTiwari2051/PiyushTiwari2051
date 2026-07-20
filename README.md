@@ -1,5 +1,5 @@
 # 💻 &nbsp;PIYUSH TIWARI
-### **[ Full-Stack Software Engineer • Agentic AI Integrator • CSE @ IMSEC ]**
+## **[ Full-Stack Software Engineer • Agentic AI Integrator • CSE @ IMSEC ]**
 
 <div align="left">
   <a href="https://piyush-tiwari-portfolio-flame.vercel.app" target="_blank">
@@ -33,7 +33,7 @@
 
 ---
 
-## 📟 &nbsp;System Bio Terminal
+# 📟 &nbsp;System Bio Terminal
 
 ```bash
 piyush@cockpit:~$ neofetch --profile
@@ -55,7 +55,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-## 🛠️ &nbsp;Tech Stack Motherboard
+# 🛠️ &nbsp;Tech Stack Motherboard
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-## 🚀 &nbsp;Featured Shipments
+# 🚀 &nbsp;Featured Shipments
 
 <table>
   <thead>
@@ -174,7 +174,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-## 💼 &nbsp;Experience Timeline
+# 💼 &nbsp;Experience Timeline
 
 * **Campus Ambassador** | **E-Cell IIT Bombay** *(Jul 2026 — Present)*
   * Representing and promoting tech-entrepreneurship and start-up workshops across campus.
@@ -190,7 +190,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-## 📜 &nbsp;Credentials & Milestones
+#📜 &nbsp;Credentials & Milestones
 
 * **IBM Project Management Fundamentals** (June 2026) | *IBM SkillsBuild*
 * **IBM Lifelong Professional Skills** (June 2026) | *IBM SkillsBuild*
@@ -202,7 +202,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-## 📊 &nbsp;GitHub Analytics Cockpit
+# 📊 &nbsp;GitHub Analytics Cockpit
 
 <table width="100%">
   <tr>
