@@ -1,5 +1,5 @@
 # 💻 &nbsp;PIYUSH TIWARI
-### **[ Full-Stack Software Engineer • Agentic AI Integrator • CSE @ IMSEC ]**
+## **[ Full-Stack Software Engineer • Agentic AI Integrator • CSE @ IMSEC ]**
 
 <div align="left">
   <a href="https://piyush-tiwari-portfolio-flame.vercel.app" target="_blank">
@@ -55,7 +55,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-### 🛠️ &nbsp;Tech Stack Motherboard
+## 🛠️ &nbsp;Tech Stack Motherboard
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-### 🚀 &nbsp;Featured Shipments
+## 🚀 &nbsp;Featured Shipments
 
 <table>
   <thead>
@@ -174,7 +174,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-### 💼 &nbsp;Experience Timeline
+## 💼 &nbsp;Experience Timeline
 
 * **Campus Ambassador** | **E-Cell IIT Bombay** *(Jul 2026 — Present)*
   * Representing and promoting tech-entrepreneurship and start-up workshops across campus.
